@@ -4,11 +4,11 @@ motorcycles = ['yamaha', 'ducati', 'harley', 'triumph ']
 print(motorcycles)
 
 
-#pop method removes the last item in a list
+#pop method removes (does not DELETE from list) the last item in a list
 #this comes in handy with chronological lists for items purchased
-popped_motorcycles = motorcycles.pop()
+list_motorcycles = motorcycles.pop()
 print(motorcycles)
-print(popped_motorcycles)
+print(list_motorcycles)
 
 
 lastowned = motorcycles.pop()
@@ -16,7 +16,7 @@ print("The Last motorcycle I owned was a " + lastowned.title() + '.')
 
 
 
-
+##Practice
 shopping = ['Nordstom', 'GAP', 'BR', 'Kmart']
 print(shopping)
 

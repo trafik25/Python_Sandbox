@@ -1,6 +1,7 @@
 
 
 #deleting items using the 'del' statement
+#permanently removes items from lists
 
 #motorcycles = ['yamaha', 'ducati', 'harley', 'triumph ']
 #print(motorcycles)
