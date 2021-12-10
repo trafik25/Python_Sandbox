@@ -7,5 +7,10 @@ cars =['bmw', 'audi', 'toyota', 'lexus']
 cars.sort()
 print(cars)
 
+cars2 = ['Audi ', 'Volkswagen', 'GM', 'Scion']
+cars2.sort()
+print(cars2)
+
+
 
 
