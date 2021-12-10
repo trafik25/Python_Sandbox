@@ -1,6 +1,8 @@
 
 
 
-cars2 = ['Audi ', 'Volkswagen', 'GM', 'Scion']
-cars2.sort(reverse=True)
-print(cars2)
+cars = ['Audi ', 'Volkswagen', 'GM', 'Scion']
+cars.sort(reverse=True)
+print(cars)
+cars.reverse
+print(cars)
