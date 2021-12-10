@@ -15,17 +15,7 @@ print(numbers[1]*80)
 
 print(numbers[3])
  
-mystring = ['Tesla', 'BMW', 'Ford'] #works with strings as well. 
-print(mystring[0])
-print(type(mystring[0])) #what datatype is at [0]
-print(type(mystring)) #what is the datatype of mystring = list 
-print(mystring[1].lower())
-print(mystring[2].upper())
 
-
-mylist = []
-mylist.append ('Chevy')
-print(mylist)
 
 
 

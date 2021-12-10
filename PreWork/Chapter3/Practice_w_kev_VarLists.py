@@ -15,3 +15,8 @@ print(type(mylist[1]))
 print(mylist[2])
 print(type(mylist[2]))
 
+myfavnum = mylist[0]
+print('My fav number is' + ', ' + str(mylist[0]))   #converting a string to a number using the str() method 
+
+
+
