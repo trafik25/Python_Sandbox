@@ -12,4 +12,7 @@ print(mytup)
 mystring = "hey guys lets learn python"
 mylist = ['pizza', 'tacos', 'dimsum' , 'sushi']
 
-print(mystring[4:7])
+print(mystring[::5])
+
+print(mylist [1:4:2])
+print(mystring[-5])
