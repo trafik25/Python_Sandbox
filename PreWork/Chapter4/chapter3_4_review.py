@@ -30,14 +30,35 @@ bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
 bikes[1] = 'schwinn'
 print(bikes)
 
+#ADDING elements to a list
+bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
 
+bikes.append('Peloton')
+print(bikes)
 
+#Creating an empty list and then ADDING elements to it
 
+motorcycles = []
+motorcycles.append('Yamaha')
+motorcycles.append('Ducati')
+motorcycles.append('Harley')
 
+print(motorcycles)
 
+#INSERTING Elements into a List, the element STRIKER is inserted at 0
+bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
+bikes.insert(0,'Striker')
+print(bikes)
 
+#Removing Elements from a List
+#use a bracket for DEL statement and specify the position of the element to be deleted
+bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
+del bikes[0]
+print(bikes)
 
-
-
-
-#WORKING WITH LISTS
+#removing an Item Using the pop() Method
+#Giant was POPPED from the list and stored as "popped_bikes" variable
+bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
+popped_bikes = bikes.pop()
+print(bikes)
+print(popped_bikes)
