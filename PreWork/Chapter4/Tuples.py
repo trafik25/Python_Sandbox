@@ -11,4 +11,21 @@ dimensions = (200,55)
 for dimension in dimensions: 
     print(dimension)
 
+
+
 #Writing over a Tuple
+dimensions = (200,55)
+print("\nOriginal dimensions:")
+for dimension in dimensions: 
+    print(dimension)
+
+dimensions = (400,100)
+print("\nModified dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+#Writing over the last tuple
+dimensions = (750,354)
+print("\nNew dimensions:")
+for dimension in dimensions:
+    print(dimension)
