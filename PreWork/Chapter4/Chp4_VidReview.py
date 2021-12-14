@@ -24,3 +24,9 @@ print(list(enumerate(foods)))
 for index, food in enumerate(foods):
     print(f"My No {index + 1} food is {food.title()}")
     
+######
+foods = ['pizza', 'tacos', 'dim sum', 'sushi']
+
+
+foods = [1, 2.5, ['pizza', 'tacos', 'dim sum', 'sushi'], "d", "John"]
+print(foods[2][2][0])
