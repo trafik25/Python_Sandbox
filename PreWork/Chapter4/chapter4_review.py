@@ -42,3 +42,46 @@ for value in range(1,15): #removing the temp variable
     squares.append(value**2)
 print(squares)
 
+#simple stats with python
+#Finding the sum of all digits
+digits = [1,2,3,4,5,6,434,232,34]
+min(digits)
+print(sum(digits))
+
+#Finding the min digit
+digits = [1,2,3,4,5,6,434,232,34]
+min(digits)
+print(min(digits))
+
+#Finding the Max digit
+digits = [1,2,3,4,5,6,434,232,34]
+min(digits)
+print(max(digits))
+
+#LIST COMPREHENSIONS are an easier way to combine lists into one line of code 
+#find the square of each number in the range 1-12
+squares = [value**2 for value in range(1,12)]
+print(squares)
+
+#Slicing a List
+#this requests the index of players X:X so 2:5 would be Tom - Jason
+players = ['charles', 'mona', 'tom', 'charlie', 'jason']
+print(players[2:5])
+
+# This would list all the players from first to fifth
+players = ['charles', 'mona', 'tom', 'charlie', 'jason']
+print(players[:5])
+
+
+# This would list all the players from index 3-5
+players = ['charles', 'mona', 'tom', 'charlie', 'jason']
+print(players[3:])
+
+players = ['charles', 'mona', 'tom', 'charlie', 'jason']
+print(players[3:])
+
+players = ['charles', 'mona', 'tom', 'charlie', 'jason']
+for index in range(2):
+        print(players[index], end=" ")
+
+
