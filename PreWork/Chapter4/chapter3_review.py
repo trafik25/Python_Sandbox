@@ -89,4 +89,38 @@ bikes.remove(too_expensive)
 print(bikes)
 print("\nI cannot afford a" + ' ' + too_expensive.title() + ' ' + "because it is too expensive" + '.')
 
+#prints in reverse order
+cars = ['Toyota', 'BMW' , 'Ferrari', 'Scion']
+cars.reverse
+print(cars)
+
 #organizing a List with SORT
+#create a list and print that list
+cars = ['Toyota', 'BMW' , 'Ferrari', 'Scion']
+cars.sort()
+print(cars)
+
+#Reverses the list 
+cars = ['Toyota', 'BMW' , 'Ferrari', 'Scion']
+cars.sort(reverse=True)
+print(cars)
+
+#Using the SORTED function displays a list in a particular order
+cars = ['Toyota', 'BMW' , 'Ferrari', 'Scion']
+print("Here is the original list")
+print(cars)
+
+print("\nHere is a sorted list")
+print(sorted(cars))
+
+print("\nHere is a my original list")
+print(cars)
+
+#print the length of the list with LEN Function
+cars = ['bmw', 'audi', 'toyota', 'subaru'] 
+print(len(cars))
+
+#Printing the INDEX 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print("\nMy fav motorcycle is a " + motorcycles[-1])
+
