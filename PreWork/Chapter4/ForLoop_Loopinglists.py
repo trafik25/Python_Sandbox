@@ -4,8 +4,9 @@
 #When you want to do the same action with every item in a list, use FOR loop
 #This line tells Python to pull a name from the list magicians, and store it in the variable magician
 magicians = ['alice', 'david', 'carolina'] 
-for magician in magicians:
-    print(magician)
+new_magician = ''
+for wood in magicians:
+    print(new_magician)
 
 
 #why loops?
