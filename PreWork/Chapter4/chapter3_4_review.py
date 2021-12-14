@@ -62,3 +62,31 @@ bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
 popped_bikes = bikes.pop()
 print(bikes)
 print(popped_bikes)
+
+#Pop method chooses a random value every time, you just change the variable name
+popped_bikes = bikes.pop()
+print("My last owned bike was a" + ' ' + popped_bikes.title() + ".")
+
+lastbike = bikes.pop()
+print("My last owned bike was a" + ' ' + lastbike.title() + ".")
+
+favbike = bikes.pop()
+print("My last owned bike was a" + ' ' + favbike.title() + ".")
+
+#REMOVING an Item by Value
+bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
+bikes.remove('trek')
+print(bikes)
+
+#add the list
+#create a var with a value from the list
+#remove it the called var
+#print the list
+#print what you want the output to be 
+bikes = ['cannondale', 'trek', 'specialized', 'giant' ]
+too_expensive = 'trek'
+bikes.remove(too_expensive)
+print(bikes)
+print("\nI cannot afford a" + ' ' + too_expensive.title() + ' ' + "because it is too expensive" + '.')
+
+#organizing a List with SORT
