@@ -25,8 +25,12 @@ for index, food in enumerate(foods):
     print(f"My No {index + 1} food is {food.title()}")
     
 ######
-foods = ['pizza', 'tacos', 'dim sum', 'sushi']
+foods = ['pizza', 'pizza' , 'tacos', 'dim sum', 'sushi']
+for food in foods:
+    if food == 'pizza':
+        break
+    print(food, end= ' ')
 
 
-foods = [1, 2.5, ['pizza', 'tacos', 'dim sum', 'sushi'], "d", "John"]
-print(foods[2][2][0])
+
+
