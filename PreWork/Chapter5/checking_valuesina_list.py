@@ -20,27 +20,30 @@ user = 'marie'
 if user not in banned_users:
     print(user.title() + ", You can post a response if you want")
 
-#Pizza App
-pizza_toppings = ['Pepperoni', 'Ham', 'Bacon', 'pineapple', 'hamburger', 'cheese']
-topping = ['banana peppers', 'chilis', 'avocado']
 
 
 
-for topping in pizza_toppings:
-    if topping == 'banana peppers':
+
+
+#Pizza App  (if it has pepperoni add to order, if it has extra topping, add surcharge)
+pizza_toppings = ['Pepperoni', 'Ham', 'Bacon', 'pineapple', 'hamburger', 'cheese', 'banana peppers', 'chilis', 'avocado']
+
+
+for toppings in pizza_toppings: 
+
+    if  toppings == 'banana peppers':
         print("There is a $2.00 surcharge for this topping.")
-    elif topping == 'chilis':
+    elif toppings == 'chilis':
         print("There is a $2.00 surcharge for this topping.")
-    elif topping == 'avocado':
+    elif toppings == 'avocado':
         print("There is a $2.00 surcharge for this topping.")
-
-    if pizza_toppings == 'Pepperoni':
+    if toppings == 'Pepperoni':
         print("This item has been added to your cart")
-    elif pizza_toppings == 'Ham':
+    elif toppings == 'Ham':
         print("This item has been added to your cart")
-    elif pizza_toppings == 'Bacon':
+    elif toppings == 'Bacon':
         print("This item has been added to your cart")
-    elif pizza_toppings == 'hamburger':
+    elif toppings == 'hamburger':
         print("This item has been added to your cart")
-    elif pizza_toppings == 'cheese':
+    elif toppings == 'cheese':
         print("This item has been added to your cart")
