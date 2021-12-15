@@ -17,9 +17,12 @@ elif age < 18:
 else:
     print("Your admission is 10$")
 
+
+
+
+
+#>>>>>>>>>>>>>>>>>>>>PROBLEM
 age = 12
-
-
 if age < 4:
     price = 0
 elif age < 18:
@@ -27,4 +30,14 @@ elif age < 18:
 else:
     price = 25
 print("Your admission today is $" + str(price) + '.')  ##returns a string version of the object 
+
+#>>>>>>>>>>>>>>>>>>>>PROBLEM
+car = 'Chevy'
+if car == 'audi':
+    price = 40000
+elif car == 'BMW':
+    price = 55000
+else:
+    price = 35000
+print("The price of this car is" + ' ' + str(price) + '.')
 
