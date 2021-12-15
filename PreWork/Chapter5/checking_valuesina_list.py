@@ -20,4 +20,27 @@ user = 'marie'
 if user not in banned_users:
     print(user.title() + ", You can post a response if you want")
 
+#Pizza App
+pizza_toppings = ['Pepperoni', 'Ham', 'Bacon', 'pineapple', 'hamburger', 'cheese']
+topping = ['banana peppers', 'chilis', 'avocado']
 
+
+
+for topping in pizza_toppings:
+    if topping == 'banana peppers':
+        print("There is a $2.00 surcharge for this topping.")
+    elif topping == 'chilis':
+        print("There is a $2.00 surcharge for this topping.")
+    elif topping == 'avocado':
+        print("There is a $2.00 surcharge for this topping.")
+
+    if pizza_toppings == 'Pepperoni':
+        print("This item has been added to your cart")
+    elif pizza_toppings == 'Ham':
+        print("This item has been added to your cart")
+    elif pizza_toppings == 'Bacon':
+        print("This item has been added to your cart")
+    elif pizza_toppings == 'hamburger':
+        print("This item has been added to your cart")
+    elif pizza_toppings == 'cheese':
+        print("This item has been added to your cart")
