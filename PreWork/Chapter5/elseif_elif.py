@@ -32,12 +32,15 @@ else:
 print("Your admission today is $" + str(price) + '.')  ##returns a string version of the object 
 
 #>>>>>>>>>>>>>>>>>>>>PROBLEM
-car = 'Chevy'
+car = 'Acura'
+
 if car == 'audi':
     price = 40000
 elif car == 'BMW':
     price = 55000
+elif car == 'Acura':
+    price = 43556
 else:
     price = 35000
-print("The price of this car is" + ' ' + str(price) + '.')
+print("The price of this" + ' ' + (car) + " is" + ' $' + str(price) + '.')
 

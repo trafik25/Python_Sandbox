@@ -15,6 +15,9 @@ if b != a:
 else:
   print("b is not greater than a") 
 
+
+
+###>>>>>>>>>>>>>PROBLEM
 car = 'subaru'
 print("Is car == 'subaru'? I predict True.")
 print(car == 'subaru')
@@ -22,10 +25,13 @@ print(car == 'subaru')
 print("\nIs car == 'audi'? I predict False.")
 print(car == 'bmw')
 
+
+
+###>>>>>>>>>>>>>PROBLEM
 employees = ['Susan', 'Tolly', 'Thomas', 'Frank', 'Jared', 'Tony']
 for people in employees:
-    if people in employees == 'Susan':
-        print("Susan is our best employee!")
+    if people == 'Thomas':
+        print(people.title() + ' ' + "is our best employee!")
     else:
-        print("No information found")
+        print("No title found")
 
