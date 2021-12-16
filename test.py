@@ -18,3 +18,19 @@ else:
     age < 65
     print("This person is a senior citizen.")
 
+
+
+
+
+##FRUITS
+my_fruits = ['banana', 'terd', 'tee', 'x']
+for fruit in my_fruits:
+
+    if  fruit == 'banana':
+        print("I love bananas!")
+    if  fruit == 'grape':
+        print("I love grapes!")
+    if  fruit == 'tomato':
+        print("I love tomatoes!")
+    if  fruit == 'limes':
+        print("I love limes!")
