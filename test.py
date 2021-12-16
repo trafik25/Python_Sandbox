@@ -20,9 +20,7 @@ else:
 
 
 
-
-
-##FRUITS
+##FRUITS list using for list to check if a fruit is in my list
 my_fruits = ['banana', 'terd', 'tee', 'x']
 for fruit in my_fruits:
 
