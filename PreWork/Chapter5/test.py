@@ -33,8 +33,11 @@ if price < 100:
 elif price == 100:
     print("price is 100")
     # this next line doesnt run because the 2nd value is true
-elif price > 100:
+elif price != 101:
     print("price is GREATER than 100")
+else: #this runs because ALL of the conditions above are TRUE
+    price == 101
+    print("Price is 101")
 
 # IF always runs
 # else runs when IF is false
