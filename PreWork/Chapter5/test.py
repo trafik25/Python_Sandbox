@@ -42,3 +42,15 @@ else: #this runs because ALL of the conditions above are TRUE
 # IF always runs
 # else runs when IF is false
 # elif runs when IF is true
+
+
+price = 101
+
+if price == 100:
+    print("price is LESS than 100")
+if price != 101:
+    print("This is not right")
+if price == 100:
+    print("This is correct")
+if price <= 101:
+    print("blah")
