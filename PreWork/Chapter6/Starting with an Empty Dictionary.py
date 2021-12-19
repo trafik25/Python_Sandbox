@@ -5,12 +5,16 @@
 
 #Typically, you’ll use empty dictionaries when storing user-supplied data in a dictionary or 
 # when you write code that generates a large number of key-value pairs automatically.
-car_0 = { }
 
-car_0['color'] = 'grey'
-car_0['engine'] = '5.5L'
+###EMPTY 
+alien_0 = { }
 
-print(car_0)
+alien_0['color'] = 'green'
+alien_0['points'] = 30
+alien_0['shape'] = 'square'
+alien_0['x_position'] = 25
+alien_0['y_position']= 40
+print(alien_0)
 
 
 
