@@ -1,22 +1,19 @@
 
 
 fav_lang = { 
-        'Steph': 'C',
+        'Steph': 'C#',
         'Rob': 'python',
         'Jeff': 'HTML',
         'Sara': 'CSS',
         'John': 'cobol',
 }
 
-friends = ['Jacob', 'Jen']
-best_friends = ['Rob', 'Jeff']
-for name in fav_lang.keys():
-    print(name.title())
+bestfriends = ['Steph', 'Rob']
 
-    if name in friends:
-        print("Hi " + name + "I see your fav lanugage is " + fav_lang[name] + "!")
-    elif name in best_friends:
-        print("Hey these are my best friends " + name + " they love " + fav_lang[name])
-    else:
-        print("These are not my friends")
-print("Everyone I know loves programming")
+for name, lang in fav_lang.items():
+    print(name + ',' + " hey I see your fav language is " + lang)
+    if name in bestfriends:
+        print("Hey that's my best bud, they're fav language is " + lang)
+
+
+
