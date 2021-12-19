@@ -11,9 +11,10 @@ fav_lang = {
 bestfriends = ['Steph', 'Rob']
 
 for name, lang in fav_lang.items():
-    print(name + ',' + " hey I see your fav language is " + lang)
-    if name in bestfriends:
-        print("Hey that's my best bud, they're fav language is " + lang)
+    #print(name + ',' + " hey I see your fav language is " + lang)
+    if name in bestfriends == 'Rob':
+        print("Hi Rob, how is it going? ")
 
-
+if 'erin' not in fav_lang.keys():
+    print("Hey Erin take the poll!")
 
