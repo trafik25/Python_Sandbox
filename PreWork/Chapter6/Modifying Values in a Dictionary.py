@@ -1,13 +1,14 @@
 
 
+car_0 = { }
 
+car_0['engine'] = '5.5 liter'
+car_0['trim_package'] = 'SLx'
+car_0['color'] = 'Evergreen'
 
-car_0 = {'color': 'grey', 'trim_package': 'SL', 'engine': '5.5L' }
-print("The car is " + car_0['color'])
+car_0 
+print("The car color is " + car_0['color'] + '.')
 
 car_0 = {'engine': '6.5L'}
-print("The car engine has been upgraded to  " + car_0['engine'] + '.')
-
-car_0 = {'trim_package': 'SLTx'}
-print("The car trim has been upgraded to  " + car_0['trim_package'] + '.')
+print("The car engine is " + car_0['engine'] + '.')
 
