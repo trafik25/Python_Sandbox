@@ -13,15 +13,18 @@ for name, number in fav_numbers.items():
     print(name + "'s" + " favorite number is " + str(number))
 
 
-
-
-user_1 = {
-        'name': 'Thomas',
-        'height': "6'5",
-        'weight': 215,
-        'fav hobby': 'skiing'
+#Looping Through All the Keys in a Dictionary
+fav_sports = {
+        'John': 'hockey',
+        'Laura': 'golf',
+        'Thomas': 'tennis',
+        'Sara': 'skiing',
 }
 
-for info, userdata in user_1.items():
-    print("\n" + info)
-    print("\n " + str(userdata))
+#to print both values you need to separate with  comma
+for name, sports in fav_sports.items():
+    print(name + "'s" + " fav sport is " + sports)
+
+#to print the first value you just call the name var
+for name in fav_sports.keys():
+    print(name)
