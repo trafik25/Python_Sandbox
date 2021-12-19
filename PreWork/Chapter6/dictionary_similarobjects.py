@@ -22,15 +22,19 @@ print("My brothers name is " + person['firstname'] + ' ' + person['lastname'] + 
 
 
 fav_numbers = { 
-        'Steph': 5, 
+        'Steph': 5, #use str function because you are converting a string to an int value
         'Rob': 10,
         'Jeff': 15,
         'Sylvia': 0,
         'John': 45,
 }
 
-print("Steph's fav number is " + str(fav_numbers['Steph']))
+del fav_numbers['Steph']
+
 print("Rob's fav number is " + str(fav_numbers['Rob']))
 print("Jeff's fav number is " + str(fav_numbers['Jeff']))
 print("Sylvia's fav number is " + str(fav_numbers['Sylvia']))
 print("John's fav number is " + str(fav_numbers['John']))
+
+fav_numbers = {'Steph': 67}
+print("Steph's fav number is " + str(fav_numbers['Steph']))
