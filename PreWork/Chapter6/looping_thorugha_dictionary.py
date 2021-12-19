@@ -12,3 +12,16 @@ fav_numbers = {
 for name, number in fav_numbers.items():
     print(name + "'s" + " favorite number is " + str(number))
 
+
+
+
+user_1 = {
+        'name': 'Thomas',
+        'height': "6'5",
+        'weight': 215,
+        'fav hobby': 'skiing'
+}
+
+for info, userdata in user_1.items():
+    print("\n" + info)
+    print("\n " + str(userdata))
